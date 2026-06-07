@@ -65,7 +65,7 @@ Resultados posibles:
 La carpeta de la extensión debe quedar así:
 
 ```text
-itm-boletin-extra/
+SiaWeb-ExtraInfo/
 ├─ manifest.json
 └─ content.js
 ```
