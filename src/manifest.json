@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "SiaWeb-ExtraInfo",
+  "version": "1.0.0",
+  "description": "Agrega columnas de promedio acumulado sin aproximar, porcentaje evaluado, porcentaje pendiente por evaluar y nota necesaria para alcanzar 3.0 en la nota final.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://siaweb.itm.edu.co/*",
+        "file:///*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
